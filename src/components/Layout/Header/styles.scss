@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  overflow: hidden;
+  border-bottom: 1px solid #eeeeeed4;
+  padding: 0 30px;
+  h3 {
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400;
+  }
+  .search-icon {
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 200ms;
+    &:hover {
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
+  }
+}

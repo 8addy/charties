@@ -1,0 +1,32 @@
+.sidebar {
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  height: 100%;
+  width: 600px;
+  max-width: 90%;
+  right: -600px;
+  transition: all ease-in 300ms;
+  &-opened {
+    right: 0px;
+  }
+  .search-wrapper {
+    padding: 15px 20px 0px;
+    position: relative;
+    height: 50px;
+    .search-icon {
+      position: absolute;
+      right: 30px;
+      top: 24px;
+      font-size: 16px;
+      color: #777;
+      &.cancel {
+        font-size: 18px;
+        font-weight: 900;
+        top: 23px;
+        cursor: pointer;
+        font-family: sans-serif;
+      }
+    }
+  }
+}
