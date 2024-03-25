@@ -4,5 +4,6 @@ Charts for Economic Data
 
 ## Instructions
 
-- run `npm install`
-- create `.env` in root directory and paste the content from `.env.example` file
+- Run `npm install`
+- Create `.env` in root directory and paste the content from `.env.example` file
+- Run the application with `npm start`
