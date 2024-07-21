@@ -1,6 +1,6 @@
 # charties
 
-Charts for Economic Data
+Charts for Economic Data With ReactJS
 
 ## Instructions
 
